@@ -71,3 +71,4 @@ test('Testando get_respostas retorna as respostas corretas', () => {
     expect(r.texto).toBe(`R${idx + 1}`);
     expect(typeof r.id_resposta).toBe('number');
   });
+});
